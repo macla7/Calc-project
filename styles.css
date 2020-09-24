@@ -1,0 +1,39 @@
+body {
+    margin: 10px;
+    padding: 5px;
+}
+
+button {
+    margin: 1
+
+}
+
+#display {
+    border: 2px solid lightgrey;
+    border-radius: 16px;
+    padding: 16px;
+    margin: 10px;
+}
+
+.digit {
+    background-color: grey;
+}
+
+.operator {
+    background-color: orange;
+}
+
+.other {
+    background-color: cyan;
+}
+
+#btns {
+    display: grid;
+    grid-template-columns: repeat(4,50px);
+    grid-template-rows: repeat(4,50px) 50px;
+
+}
+
+#clear {
+    width: 100px;
+}
